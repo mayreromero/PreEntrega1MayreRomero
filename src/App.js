@@ -1,8 +1,11 @@
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer";
+import Navbar from "./Components/Navbar/Navbar";
+
 function App() {
   return (
     <div>
-      <h1>Hola Mundo desde el proyecto</h1>
-      <h2>Desde la rama de entrega</h2>
+      <Navbar />
+      <ItemListContainer />
     </div>
   );
 }
