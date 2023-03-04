@@ -1,18 +1,7 @@
-import "./ItemListaContainer.css";
+import React from "react";
 
-const ItemListContainer = () => {
-  return (
-    <div>
-      <ul className="container-list">
-        <li>Inicio</li>
-        <li>Instalaciones</li>
-        <li>Planes</li>
-        <li>Nosotros</li>
-        <li>Contacto</li>
-        <li>Galeria</li>
-      </ul>
-    </div>
-  );
+const ItemListContainer = ({ greeting }) => {
+  return <div>{greeting}</div>;
 };
 
 export default ItemListContainer;
