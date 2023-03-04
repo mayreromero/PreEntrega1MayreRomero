@@ -9,6 +9,14 @@ const Navbar = () => {
         alt=""
       />
       <h1>Nombre del Gym</h1>
+      <ul className="container-list">
+        <a href="">Inicio</a>
+        <a href="">Instalaciones</a>
+        <a href="">Planes</a>
+        <a href="">Nosotros</a>
+        <a href="">Contacto</a>
+        <a href="">Galeria</a>
+      </ul>
       <CartWidget />
     </div>
   );
